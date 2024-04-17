@@ -1,0 +1,42 @@
+html,body{
+    direction: rtl;
+}
+#output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    gap:5px
+}
+#output>.container{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.firstName{
+    color: red;
+    text-decoration: underline;
+}
+.lastName{
+font-size: 50px;
+border: 1px solid black;
+}
+#gallery{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 5px;
+}
+.item{
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 15%;
+    padding: 5px;
+}
